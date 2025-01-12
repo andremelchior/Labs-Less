@@ -1,0 +1,108 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 20px auto;
+  padding: 15px;
+  width: 90%;
+  border: 1px solid red;
+}
+.container p {
+  font-size: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container .header-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.container .header-1 h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  border-bottom: 2px solid black;
+  display: inline;
+  margin-left: 10px;
+}
+.container .header-1 h2 + h2 {
+  font-family: "Courier New", Courier, monospace;
+  color: blueviolet;
+  border-bottom: none;
+  margin: 0;
+}
+.container .header-1 .content {
+  width: 60%;
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  flex-direction: row-reverse;
+  border: 1px solid red;
+}
+.container .header-1 .content > p {
+  display: inline;
+  color: blue;
+  margin: 0 10px 0 0;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.container .header-1 .content > p:hover {
+  color: palevioletred;
+}
+.container .header-1 .content > p + p {
+  color: orange;
+}
+.container .header-1 .content ul {
+  padding: 0;
+  margin: 0 27% 0 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.container .header-1 .content ul li {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  list-style: none;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.container .header-1 .content ul li:hover {
+  color: red;
+  border-bottom: 1px solid black;
+}
+.container .separator {
+  width: 70%;
+  border: 1px solid red;
+  margin: 10px auto;
+}
+.container .separator h1 {
+  text-align: center;
+  color: green;
+}
+.container .separator ~ section {
+  margin: 10px auto;
+  width: 50%;
+  border: 1px solid red;
+  text-align: center;
+}
+.container .separator ~ section h1 {
+  color: purple;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  border: 1px solid red;
+}
+footer address {
+  font-size: 17px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
