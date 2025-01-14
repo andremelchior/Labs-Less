@@ -9,13 +9,13 @@
     font-size: 20px;
   }
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
   .paragrafo {
     font-size: 24px;
-    color: yellow;
+    color: orangered;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   .paragrafo {
     font-size: 16px;
     color: green;
